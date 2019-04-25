@@ -183,9 +183,7 @@ infrastructure (VMs, clusters). Both ACI and Cloud Run give you a publicly
 accessible endpoint after deploying the application.
 
 Cloud Run supports running only HTTP servers and offers auto-scaling, and scale
-to zero. ACI is
-for long-running containers. Therefore, the pricing model is different. On Cloud
-Run, you only pay while a request is being handled.
+to zero. ACI is targetted towards handling burst from AKS clusters, longer running containers, batch workloads and jobs. Therefore, the pricing model is different. On Cloud Run, you only pay while a request is being handled.
 
 ### What is “Cloud Run on GKE”?
 
